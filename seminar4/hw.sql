@@ -1,0 +1,21 @@
+-- create
+CREATE TABLE CLASSMATES (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO CLASSMATES VALUES (0001, 'Stan', 29, "Moscow,Russia");
+INSERT INTO CLASSMATES VALUES (0002, 'Evgen', 23, "Boston, USA");
+INSERT INTO CLASSMATES VALUES (0003, 'Yulia', 15, "London, Great Britain");
+INSERT INTO CLASSMATES VALUES (0004, 'Eva', 31, "Minsk, Belarus");
+INSERT INTO CLASSMATES VALUES (0005, 'Oleg', 25, "Marbella, Spain");
+INSERT INTO CLASSMATES VALUES (0006, 'Vasya', 21, "Rome, Italy");
+INSERT INTO CLASSMATES VALUES (0007, 'Leva', 52, "Paris, France");
+INSERT INTO CLASSMATES VALUES (0008, 'Ksiu', 19, "Amsterdam, Holland");
+INSERT INTO CLASSMATES VALUES (0009, 'Maria', 29, "Antwerp, Belgium");
+INSERT INTO CLASSMATES VALUES (0010, 'Gorgey', 24, "Riga, Latvia");
+-- fetch 
+SELECT * FROM CLASSMATES 
